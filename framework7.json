@@ -1,0 +1,27 @@
+{
+  "cwd": "/Users/admin/Develop/frame",
+  "type": [
+    "pwa",
+    "web"
+  ],
+  "name": "frame",
+  "framework": "vue",
+  "template": "split-view",
+  "cssPreProcessor": "scss",
+  "bundler": "webpack",
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
